@@ -45,27 +45,6 @@ Alur kerja data dalam sistem ini dirancang agar efisien dan modular, dari perang
 6.  **Browser Pengguna**: Antarmuka tempat pengguna berinteraksi dengan sistem.
 
 ---
-
-## Struktur Kode
-
-Struktur folder dan file di dalam repositori ini diatur untuk memisahkan antara logika backend dan antarmuka web.
-
-
-/IoT-Application
-│
-├── app.py              # Aplikasi utama Flask (backend web & API)
-├── sub-all.py          # Skrip subscriber MQTT untuk menyimpan data ke InfluxDB
-├── requirements.txt    # Daftar semua dependensi Python yang dibutuhkan
-│
-├── /templates/
-│   └── index.html      # File HTML untuk antarmuka dashboard
-│
-├── /docs/
-│   └── screenshot.png  # Gambar cuplikan layar untuk README
-│
-└── README.md           # File dokumentasi ini
-
-
 ### Penjelasan File:
 
 * **`app.py`**: Berisi semua logika untuk web server. Menggunakan Flask untuk merender halaman `index.html`, menangani permintaan dari pengguna (form POST), dan menyediakan endpoint API (`/api/device/<device_id>`) untuk mengambil data dalam format JSON.
@@ -74,7 +53,6 @@ Struktur folder dan file di dalam repositori ini diatur untuk memisahkan antara 
 * **`templates/index.html`**: Halaman antarmuka yang dilihat oleh pengguna. Menggunakan HTML, CSS, dan sedikit JavaScript untuk menampilkan data dan menangani interaksi pengguna.
 
 ---
-
 ## Fitur Utama
 
 * **Ingesti Data Multi-Domain**: Mampu menerima data dari 5 domain IoT berbeda (Agriculture, HealthCare, City, Home, Energy).
@@ -97,9 +75,7 @@ Struktur folder dan file di dalam repositori ini diatur untuk memisahkan antara 
     * `influxdb-client`
 
 ---
-
 ## Memulai
-
 Untuk menjalankan proyek ini di lingkungan lokal Anda, ikuti langkah-langkah berikut.
 
 ### Prasyarat
