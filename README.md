@@ -1,10 +1,6 @@
 # IoT Monitoring Dashboard dengan MQTT, InfluxDB, dan Flask
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/fadilikrm/IoT-Application/main/docs/screenshot.png" alt="Tampilan Dashboard" width="700"/>
-</p>
-
-<p align="center">
   Sebuah sistem monitoring IoT lengkap untuk menerima, menyimpan, dan memvisualisasikan data sensor secara real-time.
   <br />
   <a href="#arsitektur-sistem"><strong>Lihat Arsitektur »</strong></a>
