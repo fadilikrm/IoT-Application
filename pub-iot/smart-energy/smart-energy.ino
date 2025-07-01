@@ -8,7 +8,7 @@ const char* ssid = "WLC_CNAP";       // SSID WiFi Anda
 const char* password = "s4y4b1s4";   // Password WiFi Anda
 
 // ===== Konfigurasi MQTT Broker =====
-const char* mqtt_server = "10.2.22.192"; // Alamat IP MQTT Broker Anda
+const char* mqtt_server = "10.2.22.150"; // Alamat IP MQTT Broker Anda
 const int   mqtt_port = 1883;
 const char* mqtt_topic = "fog/iot/energy";
 const char* mqtt_client_id = "mqtt_pub_energy"; // ID unik untuk perangkat ini (bisa juga dibuat dinamis)
