@@ -9,7 +9,7 @@ const char* ssid = "WLC_CNAP";
 const char* password = "s4y4b1s4";
 
 // ===== MQTT Broker Configuration =====
-const char* mqtt_server = "10.2.22.192"; // Ganti dengan IP broker MQTT kamu
+const char* mqtt_server = "10.2.22.150"; // Ganti dengan IP broker MQTT kamu
 const int mqtt_port = 1883;
 const char* mqtt_topic = "fog/iot/healthcare";
 
