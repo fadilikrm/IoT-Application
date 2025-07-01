@@ -5,9 +5,9 @@ from influxdb_client import InfluxDBClient, Point
 from influxdb_client.client.write_api import SYNCHRONOUS
 from collections import defaultdict
 
-MQTT_BROKER = "10.2.22.192"
+MQTT_BROKER = "10.2.22.150"
 MQTT_PORT = 1883
-INFLUXDB_URL = "http://10.2.22.192:8086/"
+INFLUXDB_URL = "http://10.2.22.150:8086/"
 INFLUXDB_TOKEN = "y5rUZo5y2u0pl6NE8OtPCYD-N8BK4KRF5fQtYjokYjIYh_9DP4dQUoKDpTGcft4bbD7IvHaeOaiSldeuBwvgtw=="
 INFLUXDB_ORG = "klp2"
 INFLUXDB_BUCKET = "IoT"
