@@ -3,7 +3,7 @@
 #include <WiFiManager.h> // Tambahkan library WiFiManager
 
 // MQTT
-const char* mqtt_server = "10.2.22.192";
+const char* mqtt_server = "10.2.22.150";
 const int mqtt_port = 1883;
 const char* mqtt_topic = "fog/iot/home";
 const char* mqtt_client_id = "esp32_pub_home";
