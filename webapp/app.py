@@ -4,7 +4,7 @@ from influxdb_client import InfluxDBClient
 app = Flask(__name__)
 
 # ===== Konfigurasi InfluxDB =====
-INFLUXDB_URL = "http://10.2.22.192:8086"
+INFLUXDB_URL = "http://10.2.22.150:8086"
 INFLUXDB_TOKEN = "y5rUZo5y2u0pl6NE8OtPCYD-N8BK4KRF5fQtYjokYjIYh_9DP4dQUoKDpTGcft4bbD7IvHaeOaiSldeuBwvgtw=="
 INFLUXDB_ORG = "klp2"
 INFLUXDB_BUCKET = "IoT"
